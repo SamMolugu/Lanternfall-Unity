@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 28
+  productGUID: a1b2c3d4e5f6789012345678abcdef01
+  companyName: Lanternfall
+  productName: Lanternfall
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  m_ActiveColorSpace: 1
+  m_SpriteBatchVertexThreshold: 300
+  bundleVersion: 0.1.0
+  androidBundleVersionCode: 1
+  AndroidMinSdkVersion: 23
+  AndroidTargetSdkVersion: 0
+  uIOrientation: 0
+  orthographic: 1
