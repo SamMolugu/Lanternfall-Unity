@@ -37,11 +37,18 @@ Applying a loadout or swapping an item updates sockets only — never paste UI i
 
 | Scene | Purpose |
 |-------|---------|
-| `CharacterLab` | Preview race/gender + loadout swaps |
-| `Bootstrap` (later) | Boot into camp / delve |
+| `CharacterLab` | Epic stage — cycle race/gender + loadouts (A/D, Q/E) |
+| `Title` (optional) | Splash with key art → lab |
+
+### Editor menu
+
+- **Lanternfall → Setup → Create Character Prefab Hierarchy**
+- **Lanternfall → Setup → Build Epic Character Lab Scene** — one-click stage with backdrop, UI, loadouts
 
 ## Branching
 
 - `main` — stable  
-- `feature/character-foundation` — this scaffold  
-- Later: `feature/monster-pack-*`, `feature/biome-moss`, `feature/delve-core`, etc.
+- `feature/character-foundation` — sockets + folders  
+- `feature/epic-character-lab` — presentation pass  
+- Later: `feature/monster-pack-*`, `feature/biome-moss`, `feature/delve-core`
+

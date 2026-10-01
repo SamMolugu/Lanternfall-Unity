@@ -1,42 +1,29 @@
 ﻿# Lanternfall (Unity)
 
-Cave crawler rewrite of the Electron prototype ([Lanternfall](https://github.com/SamMolugu/Lanternfall)).
+Cave crawler rewrite of the Electron prototype — **character and spectacle first**.
 
-## Approach
+## Open it
 
-**Swords & Sandals–style visuals first:** character bases → worn equipment sockets → monsters → dungeon kits → then gameplay systems.
+1. Install **Unity 6 LTS** via Hub  
+2. Add project folder `Lanternfall-Unity`  
+3. In the Editor menu: **Lanternfall → Setup → Build Epic Character Lab Scene**  
+4. Press Play — cycle bodies with **A/D**, loadouts with **Q/E**, **Space** for a flourish  
 
-The Electron repo stays as the design / systems reference (skills, dungeon rules, combat feel). This repo is the new source of truth for the shippable game.
-
-## Requirements
-
-- Unity Hub
-- **Unity 6000.0 LTS** (Unity 6) or **2022.3 LTS**
-- Modules: **2D**, **Universal RP** (optional later)
-
-Open this folder in Unity Hub → *Add* → open `Assets/_Project/Scenes/CharacterLab.unity`.
-
-## Branching
+## Git
 
 | Branch | Purpose |
 |--------|---------|
-| `main` | Stable scaffold |
-| `feature/character-foundation` | Character, equip sockets, monster & level art folders |
+| `main` | Stable entry |
+| `feature/character-foundation` | Core sockets + folders |
+| `feature/epic-character-lab` | Title art, cave stage, lab director, boss/loadout art |
 
-## Folder map
+## What’s in here
 
-```
-Assets/_Project/
-  Art/Characters|Equipment|Monsters|Levels|Reference
-  Prefabs/...
-  Scripts/Character|Equipment|World|Core
-  Scenes/CharacterLab
-  Docs/DESIGN.md
-```
+- `CharacterVisual` — Swords & Sandals style sockets  
+- `CharacterLabDirector` — epic preview carousel  
+- Full-body loadouts (Blade / Lamp / Bulwark / Shadow / Ember Plate)  
+- Bone Guardian boss concept  
+- Cave lab backdrop + title key art  
+- Biome / monster ScriptableObject hooks for next features  
 
-## Next steps
-
-1. Install Unity 6 LTS via Hub and open this project
-2. Drop base character sprites into `Art/Characters/`
-3. Assign them on `CharacterVisual` + slot transforms on the Character prefab
-4. Expand loadouts (Blade / Lamp / Bulwark / Shadow) as worn visuals
+Electron prototype remains design reference: skills, Burden/Sight, biomes.

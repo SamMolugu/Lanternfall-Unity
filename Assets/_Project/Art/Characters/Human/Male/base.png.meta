@@ -1,0 +1,19 @@
+﻿fileFormatVersion: 2
+guid: c1110000000000000000000000000001
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+  spriteMode: 1
+  spritePixelsToUnits: 256
+  textureType: 8
+  textureShape: 1
+  alphaSource: 1
+  alphaIsTransparency: 1
+  nPOTScale: 0
+  spriteMeshType: 1
+  spriteGenerateFallbackPhysicsShape: 0
+  spritePivot: {x: 0.5, y: 0.0}
